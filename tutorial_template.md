@@ -262,19 +262,6 @@ Summary and example figures
 
 
 
-## FAQ
-
-
-<!---
-Optional list of one or more FAQ questions
---->
-
-1. **Question:**
-    a. 
-2. **Question:**
-    a. 
-
-
 ## More help/additional information
 
 <!---
