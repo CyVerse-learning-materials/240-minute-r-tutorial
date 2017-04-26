@@ -16,6 +16,18 @@ Goal
     starts/tutorials for those parts ####
 
 
+.. toctree::
+	:maxdepth: 2
+	
+	Tutorial home <index.rst>
+	Step One <step1.rst>
+
+..
+	#### Comment:This tutorial can have multiple pages. The table of contents assumes 
+	you have an additional page called 'Step One' with content located in 'step1.rst' 
+	Edit these titles and filenames as needed ####
+
+
 Prerequisites
 -------------
 
