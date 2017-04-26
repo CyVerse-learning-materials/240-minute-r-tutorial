@@ -1,6 +1,6 @@
-# Base CyVerse Tutorial Repo
+# Template CyVerse Tutorial Repo
 
-You should copy this repo to build CyVerse Tutorials
+You should import this repo to build CyVerse Tutorials
 
 ## How CyVerse Learning Center documentation is built
 
@@ -24,11 +24,10 @@ Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedoc
 |Item|Description|Notes|
 |----|-----------|-----|
 |tutorial_template.md|Edit this template to create a tutorial|documents written in markdown will need to be covered to restructured text|
-|quickstart_template.md|Edit this template to create a quickstart|documents written in markdown will need to be covered to restructured text|
+|tutorial_template.md|This is a barebones markdown template|documents written in markdown will need to be covered to restructured text|
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here| 
 |/slides (folder)|Place slides associated with your tutorial here|version controlled files preferred, PPT acceptable|
-|/workflows (folder)|Version-controlled workflows built with yED||
-|/misc (folder)|miscellaneous items associated with this tutorial| if at all possible, files should be hosted (with anonymous access) at the CyVerse public Data Commons site. A sample **conf.py** file is located here|
+|/misc (folder)|miscellaneous needed for building documentation| |
 |License.md|License|this license file applies to all materials created by CyVerse for this documentation|
 |Contributors_maintainers.md|Contact information and recognition||
 
@@ -84,19 +83,41 @@ If you want to go beyond just creating a markdown file, you will need to install
 ### Procedure 
 
 1. **Import** (not clone) the CyVerse base tutorial repo following GitHub's directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
-    - The CyVerse base tutorial repo URL is **https://github.com/CyVerse-learning-materials/cyverse_base_quickstart**
-    - Name your repo for the name of your quickstart or tutorial, e.g. 
-    *'name_quickstart'* or *'name_tutorial'*
-2. Edit the **index.rst**. Save images or other files in the appropriate directories.
-3. Where possible, we recommend keeping documentation on a single index.rst page.  We will have **only one tutorial or quick start per repo.**
+    - The CyVerse template tutorial repo URL is **https://github.com/CyVerse-learning-materials/cyverse_tutorial_template**
+    - Name your repo for the name of your quickstart or tutorial, e.g. *'name_tutorial'*
+2. Edit the **index.rst**. Save images or other files in the appropriate directories. **See our recommended style guide for writing documentation below.**
+3. Since tutorials will likely span multiple pages, you can copy the 'step1.rst' page as many times as needed. Update the table of contents at the top of the 'index.rst' accordingly. We will have **only one tutorial or quick start per repo.**
 4. Save your work as  *'index.rst'*
 5. Edit the *'conf.py'* file to set the project and author information
 6. Build the tutorial:
 
         $ make html
-7. Your HTML site will be in the _build directory that has been created (you can preview this in your web browser st this time).
+7. Your HTML site will be in the _build directory that has been created (you can preview this in your web browser at this time).
 8. Commit your changes and push the tutorial back to GitHub.
-9. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs).
+9. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). We will also follow up about ensuring test data associated with the documentation are available and open. 
+
+
+### Documentation Style Guide
+
+*General Principles*
+
+- Write instructions in short numbered steps. 
+- Where possible limit step to one action; small final actions such as 'press submit' should be separated by a semicolon
+- Limit the use of screenshots; where they are needed, use ReStructured text directives for [substitution of images](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions) and label them in numbered order in the text (e.g. |image1|)
+- Example data associated with documentation should be anonymously available on CyVerse Data Commons (Tutorials@cyverse.org can help you with this)
+- Discovery Environment applications should be directly linked to documentation (clicking the 'info' button on any application will give you the 'App URL')
+- Atmosphere images should be directly linked to documentation (e.g. "atmo.cyverse.org/application/images/####". 
+
+*Specific examples*
+
+|Instruction|Example|
+|-----------|-------|
+|Steps generally begin with a verb or preposition|<ul><li>Click on the button<li>Under the "Result" menu</ul>|
+|Locations of files are given in absolute paths|<ul><li>/dir1/dir2/file.extension</ul>|
+|Top-level menus in Discovery Environment Apps in double quotes|<ul><li>Under "Input" select...</ul>|
+|Subheadings/steps in Discovery Environment Apps in single quotes|<ul><li>For 'sensitivity' enter...</ul>|
+|Buttons and keywords in bold|<ul><li>Click on **Apps**<li>Select **Arabidopsis**<li>Set 'sensitivity' to **Medium**</ul>|
+
 
 
  
