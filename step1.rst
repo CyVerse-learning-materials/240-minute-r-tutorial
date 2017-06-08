@@ -50,6 +50,7 @@ Section Name
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
 
+**Output/Results**
 
 .. list-table::
     :header-rows: 1
@@ -61,15 +62,17 @@ Section Name
       -
       -
 
+**Description**
 
 
 ----
 
-Summary
-~~~~~~~
+**Summary**
+~~~~~~~~~~~
 
 ..
     Summary
+----
 
 **Next Steps:**
 
