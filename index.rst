@@ -1,6 +1,6 @@
 |CyVerse logo|_
 
-|Home_Icon|_ 
+|Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 PROJECT NAME
@@ -18,33 +18,29 @@ Goal
     necessarily part of the tutorial - write or link to separate quick
     starts/tutorials for those parts ####
 
+----
 
 .. toctree::
 	:maxdepth: 2
-	
+
 	Tutorial home <index.rst>
 	Step One <step1.rst>
 
 ..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes 
-	you have an additional page called 'Step Owo' with content located in 'step1.rst' 
+	#### Comment:This tutorial can have multiple pages. The table of contents assumes
+	you have an additional page called 'Step Owo' with content located in 'step1.rst'
 	Edit these titles and filenames as needed ####
 
 
 Prerequisites
 -------------
 
-..
-    #### Comment: A few sentences (50 words or less) describing the ultimate goal of the steps
-    in this tutorial ####
-
-
 Downloads, access, and services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *In order to complete this tutorial you will need access to the following services/software*
 
-.. 
+..
 	#### comment: delete any row not needed in this table ####
 
 .. list-table::
@@ -68,7 +64,7 @@ Platform(s)
 
 *We will use the following CyVerse platform(s):*
 
-.. 
+..
 	#### comment: delete any row not needed in this table ####
 
 .. list-table::
@@ -109,7 +105,7 @@ Application(s) used
 ~~~~~~~~~~~~~~~~~~~
 ..
 	#### Comment: these tables are examples, delete whatever is unnecessary ####
-	
+
 **Discovery Environment App(s):**
 
 .. list-table::
@@ -141,8 +137,8 @@ Application(s) used
       - 1.0
       - base image CentOS 6.8 with GNOME GUI
       -	`Image <https://atmo.cyverse.org/application/images/1384>`_
-      - 
-	
+      -
+
 
 
 Input and example data
@@ -150,7 +146,7 @@ Input and example data
 
 *In order to complete this tutorial you will need to have the following inputs prepared*
 
-.. 
+..
 	#### comment: delete any row not needed in this table ####
 
 .. list-table::
@@ -160,7 +156,7 @@ Input and example data
       - Format
       - Preparation/Notes
       - Example Data
-    * - 
+    * -
       -
       -
       -
@@ -176,23 +172,21 @@ More help and additional information
     Short description and links to any reading materials
 
 Search for an answer:
-    `CyVerse Learning Center <http://www.cyverse.org/learning-center>`_ or
+    `CyVerse Learning Center <http://learning.cyverse.org>`_ or
     `CyVerse Wiki <https://wiki.cyverse.org>`_
 
 Post your question to the user forum:
     `Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
 
-Fix or improve this tutorial
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
 
-Fix this tutorial on GitHub:
-    `GitHub <FIX_THIS_IN_YOUR_DOCUMENTATION>`_
+**Fix or improve this documentation**
 
-Send a note:
-    `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
+- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
-|Home_Icon|_ 
-`Learning Center Home <http://learning.cyverse.org/>`_
+----
+
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
