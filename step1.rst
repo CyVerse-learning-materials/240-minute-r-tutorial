@@ -26,8 +26,8 @@ Section Name
       -
       -
 
-**Steps:**
-~~~~~~~~~~
+*Descriptive Steps*
+~~~~~~~~~~~~~~~~~~~
 
 .. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
 
