@@ -28,7 +28,7 @@ Goal
 
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
-	you have an additional page called 'Step Owo' with content located in 'step1.rst'
+	you have an additional page called 'Step One' with content located in 'step1.rst'
 	Edit these titles and filenames as needed ####
 
 
@@ -64,8 +64,8 @@ Platform(s)
 
 *We will use the following CyVerse platform(s):*
 
-..
-	#### comment: delete any row not needed in this table ####
+ ..
+   #### comment: delete any row not needed in this table ####
 
 .. list-table::
     :header-rows: 1
@@ -76,20 +76,20 @@ Platform(s)
       - Platform Documentation
       - Quick Start
     * - Data Store
-		  - GUI/Command line
+      - GUI/Command line
       - `Data Store <http://www.cyverse.org/data-store>`_
-			- `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
-			- `Guide <>`__
-		* - Discovery Environment
+      - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
+      - `Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
+    * - Discovery Environment
       - Web/Point-and-click
       - `Discovery Environment <https://de.cyverse.org/de/>`_
       - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
-      - `Guide <>`__
+      - `Guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`__
     * - Atmosphere
       - Command line (ssh) and/or Desktop (VNC)
       - `Atmosphere <https://atmo.cyverse.org>`_
       - `Atmosphere Manual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
-      - `Guide <>`__
+      - `Guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`__
     * - BisQue
       - Web/Point-and-click and/or Command-line (API)
       - `BisQue <https://bisque.cyverse.org/client_service/>`_
@@ -99,7 +99,7 @@ Platform(s)
       - Web/Point-and-click
       - `DNA Subway <https://dnasubway.cyverse.org/>`_
       - `DNA Subway Manual <http://dnasubway.cyverse.org/files/pdf/DNA_Subway_Guide.pdf>`_
-      - `Guide <>`__
+      - `Guide <https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/>`__
     * - Agave API
       - Command-line (API)
       - `Agave API <https://agaveapi.co>`_
@@ -176,7 +176,7 @@ Input and example data
 ----
 
 |Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
+`Learning Center Home <http://learning.cyverse.org/>`__
 
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
