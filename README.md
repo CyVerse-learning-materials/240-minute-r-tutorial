@@ -25,7 +25,7 @@ Each CyVerse Tutorial, Guide, or Quickstart has its own [ReadtheDocs](https://re
 
 |Item|Description|Notes|
 |----|-----------|-----|
-|index.rst|Edit this template to create your documentation|documents written in markdown will need to be covered to restructured text|
+|index.rst|Edit this template to create your documentation|documents written in markdown will need to be converted to restructured text|
 |step1.rst|If documentation has more than one page, use this for the second through second-to-last page; copy as needed|copy as needed for additional pages 1..(n-1)|
 |step2.rst|If documentation has more than one page, this should always be the **last** page||
 |/img (folder)|Place images for your tutorials here|CyVerse logos and other useful images are already here|
