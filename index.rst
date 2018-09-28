@@ -53,13 +53,13 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
-      - `Register <https://user.cyverse.org/>`_
+      - |CyVerse User Portal|
     * - Atmosphere access
       - You must have access to Atmosphere
-      - `Request Access <https://user.cyverse.org/>`_
+      - |CyVerse User Portal|
     * - Cyberduck
       - Standalone software for upload/download to Data Store
-      - `Download <https://cyberduck.io/>`_
+      - |Download Cyberduck|
 
 Platform(s)
 ~~~~~~~~~~~
@@ -217,6 +217,10 @@ Input and example data
 .. |Github Repo Link|  raw:: html
 
    <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |Download Cyberduck| raw:: html
+
+   <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
 
 .. |DE Application URL|  raw:: html
 
