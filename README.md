@@ -1,6 +1,7 @@
 # Template CyVerse Tutorial Repo
 
 You should import this repo to build CyVerse Tutorials
+
 **See what this template looks like [rendered on ReadTheDocs](https://cyverse-cyverse-tutorial-template.readthedocs-hosted.com/en/latest/)**
 
 ## How CyVerse Learning Center documentation is built
