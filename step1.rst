@@ -74,8 +74,12 @@ Section Name
 
 **Fix or improve this documentation**
 
-- On Github: |Github Repo Link|
-- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+Search for an answer:
+|CyVerse Learning Center| or
+|CyVerse Wiki|
+
+Post your question to the user forum:
+|Ask CyVerse|
 
 ----
 
