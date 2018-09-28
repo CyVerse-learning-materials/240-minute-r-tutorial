@@ -1,10 +1,12 @@
+.. include:: cyverse_rst_defined_substitutions.txt
+
 |CyVerse logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-PROJECT NAME
-============
+**TUTORIAL NAME**
+=================
 
 ..
     #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
@@ -25,7 +27,7 @@ Goal
 
 	Tutorial home <self>
 	Step One <step1.rst>
-
+	Delete this example guide page <example_directives_delete.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'
@@ -51,13 +53,13 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
-      - `Register <https://user.cyverse.org/>`_
+      - |CyVerse User Portal|
     * - Atmosphere access
       - You must have access to Atmosphere
-      - `Request Access <https://user.cyverse.org/>`_
+      - |CyVerse User Portal|
     * - Cyberduck
       - Standalone software for upload/download to Data Store
-      - `Download <https://cyberduck.io/>`_
+      - |Download Cyberduck|
 
 Platform(s)
 ~~~~~~~~~~~
@@ -77,34 +79,39 @@ Platform(s)
       - Quick Start
     * - Data Store
       - GUI/Command line
-      - `Data Store <http://www.cyverse.org/data-store>`_
-      - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
-      - `Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`__
+      - |Data Store|
+      - |Data Store Manual|
+      - |Data Store Guide|
     * - Discovery Environment
       - Web/Point-and-click
-      - `Discovery Environment <https://de.cyverse.org/de/>`_
-      - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
-      - `Guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`__
+      - |Discovery Environment|
+      - |DE Manual|
+      - |Discovery Environment Guide|
     * - Atmosphere
       - Command line (ssh) and/or Desktop (VNC)
-      - `Atmosphere <https://atmo.cyverse.org>`_
-      - `Atmosphere Manual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
-      - `Guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`__
+      - |Atmosphere|
+      - |Atmosphere Manual|
+      - |Atmosphere Guide|
     * - BisQue
       - Web/Point-and-click and/or Command-line (API)
-      - `BisQue <https://bisque.cyverse.org/client_service/>`_
-      - `BisQue Manual <https://wiki.cyverse.org/wiki/display/BIS>`_
-      - `Guide <>`__
+      - |BisQue|
+      - |BisQue Manual|
+      - (See Manual)
     * - DNA Subway
       - Web/Point-and-click
-      - `DNA Subway <https://dnasubway.cyverse.org/>`_
-      - `DNA Subway Manual <http://dnasubway.cyverse.org/files/pdf/DNA_Subway_Guide.pdf>`_
-      - `Guide <https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/>`__
+      - |DNA Subway|
+      - (See Guide)
+      - |DNA Subway Guide|
+    * - SciApps
+      - Command-line (API)
+      - |SciApps|
+      - (See Guide)
+      - |SciApps Guide|
     * - Agave API
       - Command-line (API)
-      - `Agave API <https://agaveapi.co>`_
-      - `Live Docs <https://agaveapi.co>`_
-      - `Guide <>`__
+      - |Agave API|
+      - |Agave Live Docs|
+      - (See Live Docs)
 
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
@@ -124,9 +131,9 @@ Application(s) used
     * - Muscle
       - 3.8.31
       - Multiple sequence aligner
-      -	`DE App link <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`_
-      - - `Original Muscle documentation <http://www.drive5.com/muscle/manual/>`_
-      	- `DE Dockerfile <http://wwww.cyverse.org>`_
+      -	|DE Application URL|
+      - |Original App Documentation|
+
 
 **Atmosphere Image(s):**
 
@@ -141,7 +148,7 @@ Application(s) used
     * - CyVerse CentOS 6.8 GUI Base
       - 1.0
       - base image CentOS 6.8 with GNOME GUI
-      -	`Image <https://atmo.cyverse.org/application/images/1384>`_
+      - |Atmosphere Image|
       -
 
 
@@ -170,8 +177,12 @@ Input and example data
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
-- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+Search for an answer:
+|CyVerse Learning Center| or
+|CyVerse Wiki|
+
+Post your question to the user forum:
+|Ask CyVerse|
 
 ----
 
@@ -179,11 +190,50 @@ Input and example data
 `Learning Center Home <http://learning.cyverse.org/>`__
 
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+.. Comment: Place Images Below This Line
+   use :width: to give a desired width for your image
+   use :height: to give a desired height for your image
+   replace the image name/location and URL if hyperlinked
+
+
+ .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
+ .. _CyVerse logo: http://learning.cyverse.org/
+
+ .. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
     :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
+
+
+
+.. Comment: Place URLS Below This Line
+
+   # Use this example to ensure that links open in new tabs, avoiding
+   # forcing users to leave the document, and making it easy to update links
+   # In a single place in this document
+
+   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
+
+      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+
+.. |Download Cyberduck| raw:: html
+
+   <a href="https://cyberduck.io/" target="blank">Download Cyberduck</a>
+
+.. |DE Application URL|  raw:: html
+
+   <a href="https://de.cyverse.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e&system-id=de" target="blank">DE Application URL</a>
+
+.. |Original App Documentation|  raw:: html
+
+   <a href="http://www.drive5.com/muscle/manual/" target="blank">Original App Documentation</a>
+
+.. |Atmosphere Image|  raw:: html
+
+   <a href="https://atmo.cyverse.org/application/images/1384" target="blank">Atmosphere Image</a>
