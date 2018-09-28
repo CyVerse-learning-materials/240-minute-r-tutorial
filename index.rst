@@ -132,7 +132,7 @@ Application(s) used
       - 3.8.31
       - Multiple sequence aligner
       -	|DE Application URL|
-      - - |Original App Documentation|
+      - |Original App Documentation|
 
 
 **Atmosphere Image(s):**
