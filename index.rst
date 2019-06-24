@@ -181,9 +181,6 @@ Search for an answer:
 |CyVerse Learning Center| or
 |CyVerse Wiki|
 
-Post your question to the user forum:
-|Ask CyVerse|
-
 ----
 
 |Home_Icon|_
