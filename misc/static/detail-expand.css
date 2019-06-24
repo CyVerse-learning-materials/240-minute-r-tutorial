@@ -98,11 +98,11 @@ html_theme_options = {
   cursor: pointer;
 }
 
-.rst-content .admonition-expand-to-read-more .admonition-title:after {
+.rst-content .admonition-expand-to-read-more .admonition-answer .admonition-title:after {
   content: "\f13a";
 }
 
-.rst-content .admonition-expand-to-read-more .admonition-title.expanded:after {
+.rst-content .admonition-expand-to-read-more .admonition-answer .admonition-title.expanded:after {
   content: "\f139";
 }
 
