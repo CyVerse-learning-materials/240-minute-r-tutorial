@@ -101,6 +101,12 @@ Other admonitions
 There are several admonitions you can use, but tip and warning are the most
 common for our documentation.
 
+    .. admonition:: learning-objectives
+
+       - Objective 1
+       - Objective 2
+       - Objective 3
+
     .. tip::
          If you don't see a desired species/genome `contact us <https://dnasubway.cyverse.org/feedback.html>`_ to have it added
 
