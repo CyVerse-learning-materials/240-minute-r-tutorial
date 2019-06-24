@@ -74,6 +74,8 @@ Sometimes you may want to ask in-line questions.
 
           *Practice, practice, practice*
 
+You can hide long sections of text...
+
 .. admonition:: Expand to read more
 
     **Open a connection to a public folder**
