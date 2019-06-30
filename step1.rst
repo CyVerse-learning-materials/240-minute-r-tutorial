@@ -5,70 +5,46 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+What is today's goal?
+-----------------------
 
-Section Name
--------------
+In the course of this tutorial we will show you ...
 
-**Description:**
+  - How tabular data (spreadsheets) can be imported into R
+  - How to install and use almost any R function (and read its related
+    documentation)
+  - How data can be cleaned and prepared for analysis
+  - How you can find help and learn more about R
 
-..
-	#### Comment: short text description goes here ####
+What this tutorial will not teach
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-----
+The single most important thing this tutorial will not show are the hours of
+frustration, Googling, and copying-and-pasting that go along with using R
+(and just about any other programming language).
 
-**Input Data:**
+If (and especially if) this is your first time programing and/or using R. It's
+important to know that programming is a learned skill - you will get better
+as you do it more so don't expect that it will just "come naturally." In fact,
+you will get a lot of use out of R without having to use it every day/week/month.
+With some basic skills, you will be able to do many important
+bioinformatics-related tasks, hopefully a lot faster and more reproducibly than
+you are doing now.
 
-.. list-table::
-    :header-rows: 1
+Is this tutorial right for you?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    * - Input
-      - Description
-      - Example
-    * -
-      -
-      -
+There are some useful tips and tricks for everyone in this tutorial but it was
+designed for people with little to no knowledge of programming and or R.
+After years teaching biologists, here are some typical statements from learners
+at this level:
 
-*Descriptive Steps*
-~~~~~~~~~~~~~~~~~~~
+ - "I used R once /took a class once several years ago"
+ - "I'm afraid of R"
+ - "I use R, but there are a lot of things I do and don't understand why
+   I am doing them"
 
-.. 	#### Comment: Step title should be descriptive (i.e. Cleaning Read data) ###
-
-
-1.
-
-2.
-
-3.
-
-
-
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
-
-**Output/Results**
-
-.. list-table::
-    :header-rows: 1
-
-    * - Output
-      - Description
-      - Example
-    * -
-      -
-      -
-
-
-----
-
-**Description of output and results**
-
+If this sounds like you, this tutorial was written just for you.
 
 ----
 
@@ -113,4 +89,8 @@ Search for an answer:
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/240-minute-r-tutorial" target="blank">Github Repo Link</a>
+
+.. |growing in popularity|  raw:: html
+
+   <a href="https://www.tiobe.com/tiobe-index/r/" target="blank">growing in popularity</a>

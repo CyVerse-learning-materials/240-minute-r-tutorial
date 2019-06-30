@@ -5,20 +5,23 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**TUTORIAL NAME**
-=================
+|condensedR|
 
-..
-    #### Comment: Use short, imperative titles e.g. Upload and share data, uploading and
-    sharing data ####
+**Condensed R: 240-Minute R Tutorial**
+=========================================
 
 Goal
 ----
 
-..
-    #### Comment: Avoid covering upstream and downstream steps that are not explicitly and
-    necessarily part of the tutorial - write or link to separate quick
-    starts/tutorials for those parts ####
+This tutorial is designed for learners with little to no programming or R
+experience and prepares them to learn more about R on their own. We'll introduce
+some of the most useful features of R for the analysis of biological data.
+
+ .. note::
+	 This tutorial was prepared for presentation with an experienced R instructor.
+	 Self-guided learners should also find this tutorial useful.
+
+
 
 ----
 
@@ -26,8 +29,17 @@ Goal
 	:maxdepth: 2
 
 	Tutorial home <self>
-	Step One <step1.rst>
-	Delete this example guide page <example_directives_delete.rst>
+	Introduction <step1.rst>
+	R and RStudio basics <step2.rst>
+	Understanding basic R functions <step3.rst>
+	Fundamental objects in R <step4.rst>
+  Importing data and working with data frames <step5.rst>
+  Data cleaning with Tidyverse dplyr <step6.rst>
+	Visualization basics <step7.rst>
+	Getting help with R <step8.rst>
+
+
+
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'Step One' with content located in 'step1.rst'
@@ -52,14 +64,19 @@ Downloads, access, and services
       - Preparation/Notes
       - Link/Download
     * - CyVerse account
-      - You will need a CyVerse account to complete this exercise
+      - We will use CyVerse VICE to complete this tutorial. This will eliminate
+        the time consuming step of having each learner install R on their own.
       - |CyVerse User Portal|
-    * - Atmosphere access
-      - You must have access to Atmosphere
-      - |CyVerse User Portal|
-    * - Cyberduck
-      - Standalone software for upload/download to Data Store
-      - |Download Cyberduck|
+    * - [Optional] Install R
+      - If not using the CyVerse VICE app, you will need to install R on your
+        own computer. You can follow instructions at this link to install R on
+        your own computer.
+      - |Project R|
+    * - [Optional] RStudio
+      - If not using the CyVerse VICE app, you will need to install RStudio on
+        your own computer. You can follow instructions at this link to install
+        RStudio on your own computer. (Choose the free "RStudio Desktop")
+      - |RStudio|
 
 Platform(s)
 ~~~~~~~~~~~
@@ -87,31 +104,7 @@ Platform(s)
       - |Discovery Environment|
       - |DE Manual|
       - |Discovery Environment Guide|
-    * - Atmosphere
-      - Command line (ssh) and/or Desktop (VNC)
-      - |Atmosphere|
-      - |Atmosphere Manual|
-      - |Atmosphere Guide|
-    * - BisQue
-      - Web/Point-and-click and/or Command-line (API)
-      - |BisQue|
-      - |BisQue Manual|
-      - (See Manual)
-    * - DNA Subway
-      - Web/Point-and-click
-      - |DNA Subway|
-      - (See Guide)
-      - |DNA Subway Guide|
-    * - SciApps
-      - Command-line (API)
-      - |SciApps|
-      - (See Guide)
-      - |SciApps Guide|
-    * - Agave API
-      - Command-line (API)
-      - |Agave API|
-      - |Agave Live Docs|
-      - (See Live Docs)
+
 
 Application(s) used
 ~~~~~~~~~~~~~~~~~~~
@@ -126,52 +119,19 @@ Application(s) used
     * - App name
       - Version
       - Description
-      - App link
-      - Notes/other links
-    * - Muscle
-      - 3.8.31
-      - Multiple sequence aligner
-      -	|DE Application URL|
-      - |Original App Documentation|
+    * - rstudio-3.5.0
+      - 3.5.0
+      - RStudio
 
 
-**Atmosphere Image(s):**
+Credits and attributions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table::
-    :header-rows: 1
+Material for this tutorial is credited to the Data Carpentry Genomics R lessons
+(https://datacarpentry.org/genomics-r-intro/index.html)
+As well as materials from Jeff Holister's R Tutorial
+(http://usepa.github.io/introR/2015/01/14/03-Clean/)
 
-    * - Image name
-      - Version
-      - Description
-      - Link
-      - Notes/other links
-    * - CyVerse CentOS 6.8 GUI Base
-      - 1.0
-      - base image CentOS 6.8 with GNOME GUI
-      - |Atmosphere Image|
-      -
-
-
-
-Input and example data
-~~~~~~~~~~~~~~~~~~~~~~
-
-*In order to complete this tutorial you will need to have the following inputs prepared*
-
-..
-	#### comment: delete any row not needed in this table ####
-
-.. list-table::
-    :header-rows: 1
-
-    * - Input File(s)
-      - Format
-      - Preparation/Notes
-      - Example Data
-    * -
-      -
-      -
-      -
 
 ----
 
@@ -187,23 +147,24 @@ Search for an answer:
 `Learning Center Home <http://learning.cyverse.org/>`__
 
 
-.. Comment: Place Images Below This Line
-   use :width: to give a desired width for your image
-   use :height: to give a desired height for your image
-   replace the image name/location and URL if hyperlinked
+	.. Comment: Place Images Below This Line
+	   use :width: to give a desired width for your image
+	   use :height: to give a desired height for your image
+	   replace the image name/location and URL if hyperlinked
 
 
- .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
-    :width: 500
-    :height: 100
- .. _CyVerse logo: http://learning.cyverse.org/
+	 .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
+	    :width: 500
+	    :height: 100
+	 .. _CyVerse logo: http://learning.cyverse.org/
 
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
+	 .. |Static image| image:: ./img/IMAGENAME.png
+	    :width: 25
+	    :height: 25
 
-
-
+ .. |condensedR| image:: ./img/condensed-r.png
+    :width: 200
+    :height: 275
 .. Comment: Place URLS Below This Line
 
    # Use this example to ensure that links open in new tabs, avoiding
@@ -217,7 +178,7 @@ Search for an answer:
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/240-minute-r-tutorial" target="blank">Github Repo Link</a>
 
 .. |Download Cyberduck| raw:: html
 
@@ -234,3 +195,11 @@ Search for an answer:
 .. |Atmosphere Image|  raw:: html
 
    <a href="https://atmo.cyverse.org/application/images/1384" target="blank">Atmosphere Image</a>
+
+.. |Project R|  raw:: html
+
+   <a href="https://cloud.r-project.org/" target="blank">Project R</a>
+
+.. |RStudio|  raw:: html
+
+   <a href="https://www.rstudio.com/products/rstudio/download/" target="blank">RStudio</a>
