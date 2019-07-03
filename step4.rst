@@ -508,7 +508,7 @@ all of the SNPs in our vector of SNP positions that were greater than
 
 .. code-block:: R
 
-  snp_positions[snp_positions  100000000]
+  snp_positions[snp_positions > 100000000]
 
 In the square brackets you place the name of the vector followed by the
 comparison operator and (in this case) a numeric value. Some of the most
@@ -542,12 +542,12 @@ The magic of programming
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The reason why the expression `snp_positions[snp_positions  100000000]` works
-can be better understood if you examine what the expression "snp_positions  100000000"
+can be better understood if you examine what the expression "snp_positions > 100000000"
 evaluates to:
 
 .. code-block:: R
 
-  snp_positions  100000000
+  snp_positions > 100000000
 
 
 The output above is a logical vector, the 4th element of which is TRUE. When
@@ -574,7 +574,7 @@ evaluates as TRUE in our comparison:
 
 .. code-block:: R
 
-    which(snp_positions  100000000)
+    which(snp_positions >100000000)
 
 
 **Why this is important**
